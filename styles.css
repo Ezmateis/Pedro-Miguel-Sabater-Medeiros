@@ -1,0 +1,115 @@
+body {
+    background-color: #0a0a0a;
+    color: #ffffff;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #0d0d0d !important;
+    border-bottom: 2px solid #a020f0;
+    box-shadow: 0 0 15px #a020f0;
+}
+
+.navbar-brand,
+.nav-link {
+    color: #ffffff !important;
+}
+
+.nav-link:hover {
+    color: #c770ff !important;
+    text-shadow: 0 0 10px #c770ff;
+}
+
+/* Seção inicial */
+#inicio {
+    background: linear-gradient(135deg, #0d0d0d, #2a003f) !important;
+}
+
+/* Botões */
+.btn-primary {
+    background-color: #a020f0;
+    border-color: #a020f0;
+    box-shadow: 0 0 15px #a020f0;
+}
+
+.btn-primary:hover {
+    background-color: #c770ff;
+    border-color: #c770ff;
+}
+
+/* Cards dos projetos */
+.card {
+    background-color: #141414;
+    color: white;
+    border: 1px solid #2a0f3a;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 0 25px #a020f0;
+}
+
+/* Habilidades */
+#habilidades {
+    background-color: #0f0f0f !important;
+}
+
+#habilidades h3 {
+    color: #c770ff;
+}
+
+/* Sobre */
+#sobre {
+    background-color: #111;
+}
+
+/* Contato */
+#contato {
+    background-color: #0d0d0d !important;
+}
+
+/* Footer */
+footer {
+    border-top: 2px solid #a020f0;
+}
+
+/* Ícones */
+#icone-footer:hover,
+.fa-html5:hover,
+.fa-css3:hover,
+.fa-js:hover,
+.fa-bootstrap:hover {
+    color: #c770ff !important;
+    text-shadow: 0 0 15px #c770ff;
+}
+
+:root {
+    --bs-primary: #2c3e50; /* Cor personalizada */
+}
+
+.navbar {
+    transition: all 0.3s ease-in-out; /* Efeito suave */
+}
+
+.btn-primary {
+    border-radius: 30px;
+    padding: 12px 30px;
+}
+
+.card {
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-10px); /* Efeito de levitação */
+}
+
+footer {
+    border-top: 2px solid var(--bs-primary);
+}
+
+footer a:hover {
+    color: var(--bs-primary) !important;
+    transition: 0.3s;
+}
